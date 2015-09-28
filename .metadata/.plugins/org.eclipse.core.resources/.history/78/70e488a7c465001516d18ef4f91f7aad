@@ -1,0 +1,30 @@
+package zusatzaufgabe;
+
+import java.util.Scanner;
+
+public class aufgabe03 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double groesse = 0.0;
+		double gewicht = 0.0;
+		double bmi = 0;
+		
+		System.out.println("Geben Sie Grösse in Zentimeter ein: ");
+		groesse = sc.nextDouble();
+		System.out.println("Geben sie Ihr Gewicht in kg ein: ");
+		gewicht = sc.nextDouble();
+		
+		bmi = gewicht / Math.pow(groesse/100, 2);
+		
+		
+		
+		System.out.println("Ihr BMI: " + Math.floor(bmi));
+		
+		
+
+	}
+
+}

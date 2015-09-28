@@ -1,0 +1,22 @@
+package buch.kap.vier;
+
+import java.util.*;
+
+public class Aufgabe_4_20 {
+	public static void main(String[] args){
+		
+		int i = 3;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int n = sc.nextInt();
+		
+		for(i = 0; i < 2*n; i++){
+			System.out.println("Resultat: " + 1/(2*i+1));
+		}
+		
+		
+		
+	}
+	
+}

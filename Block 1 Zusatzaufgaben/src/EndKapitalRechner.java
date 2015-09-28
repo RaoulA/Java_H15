@@ -1,0 +1,32 @@
+import java.util.*;
+
+public class EndKapitalRechner {
+	
+	public static void main(String[] args) {
+		double zinssatz;
+		double endKapital;
+		double startKapital;
+		double anzahlJahre;
+		
+		
+		/* Scanner erstellen */
+		 Scanner sc = new Scanner(System.in);
+		 
+		 /* Startkapital einlesen */
+		 System.out.print("Bitte Startkapital eingeben:"  );
+		 startKapital = sc.nextDouble();
+		 
+		 // Zinssatz einlesen
+		 System.out.print("Bitte Zinssatz in Prozent eingeben:" );
+		 zinssatz = sc.nextDouble();
+		 
+		 // Anzahl Jahre einlesen */
+		 System.out.print("Bitte Anzahl Jahre eingeben:");
+		 anzahlJahre = sc.nextDouble();
+		 
+		 /* Endkapital berechnen */
+		 endKapital = (startKapital * ((1 + zinssatz / 100) * anzahlJahre));
+		 /* Ausgabe */
+		 System.out.println("\nEndkapital:" + endKapital);
+		 }
+}

@@ -1,0 +1,11 @@
+package kap.vier;
+import java.util.*;
+public class ZeitRechner {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

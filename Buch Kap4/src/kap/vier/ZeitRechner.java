@@ -1,0 +1,54 @@
+package kap.vier;
+import java.util.*;
+public class ZeitRechner {
+
+/**
+ * 
+ * @autor Raoul Ackermann
+ * 
+ * program calculates years, days, hours, minutes, secondes of a specific amount of time
+ */
+	
+	public static void main(String[] args) {
+		
+		int sec;
+		int min;
+		int h;
+		int d;
+		int y;
+		int eing;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Geben Sie die Zeit in Sekunden ein: ");
+		eing = sc.nextInt();
+		
+		System.out.println(eing + " Sekunden entsprechen: ");
+		
+		y = (eing/31556926);
+		eing =  eing % (365 * 3600 * 24);
+		
+		d = eing / (3600 * 24);
+		eing = eing % (3600 * 24);
+		
+		h = eing / 3600;		
+		eing = eing % (3600);
+		
+		min = eing / 60;
+		
+		eing= eing % 60;
+		
+		sec = eing; 
+		
+		System.out.println(y + " Jahre");
+		System.out.println(d + " Tage");
+		System.out.println(h + " Stunden");
+		System.out.println(min + " Minuten");
+		System.out.println(sec + " Sekunden");
+	
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package kap.vier;
+import java.util.*;
+public class RechnerPotenzen {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

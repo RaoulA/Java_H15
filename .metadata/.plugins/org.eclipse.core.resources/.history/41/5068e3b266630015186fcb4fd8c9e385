@@ -1,0 +1,26 @@
+package kap.vier;
+import java.util.*;
+
+public class Name_alter {
+
+	public static void main(String[] args) {
+		
+		String vname;
+		String nname;
+		int alter;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Wie ist Ihr Vorname: ");
+		vname = sc.next();
+		
+		System.out.println("Wie ist Ihr Nachname: ");
+		nname = sc.next();
+		
+		System.out.println("Wie alt sind Sie: ");
+		alter = sc.nextInt();
+		
+		System.out.println("Guten Tag " + vname + nname + ". Sie sind " + alter " Jahre alt.");		
+	}
+
+}

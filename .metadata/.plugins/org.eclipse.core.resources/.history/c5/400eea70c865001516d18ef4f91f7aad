@@ -1,0 +1,16 @@
+package buch.kap.vier;
+
+public class Aufgabe_4_21 {
+	
+	public static void main(String[] args){
+		
+		int i = 1;
+		
+		int [] chessRef = {1, 2, 3, 4, 5, 6, 7, 8};
+		
+		
+		for(i = 0;  ; {
+			System.out.println(i + i+1);
+		}
+	}
+}

@@ -1,0 +1,36 @@
+package kap.vier;
+import java.util.*;
+public class ZeitRechner {
+
+	public static void main(String[] args) {
+		
+		int sec;
+		int min;
+		int h;
+		int d;
+		int y;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Geben Sie die Zeit in Sekunden ein: ");
+		y = sc.nextInt();
+		
+		System.out.println(sec + "Sekunden entsprechen: ");
+		
+		y = (sec/31556926);
+		System.out.println(y + "Jahre");
+		
+	
+//		System.out.println(min + "Minuten");
+//		
+//		h = (min/60);
+//		System.out.println(h + "Stunden");
+//			min = (sec/60);
+//		d = (h/24);
+//		System.out.println(d + "Tage");
+		
+		
+		
+	}
+
+}
